@@ -10,43 +10,52 @@
 namespace WebApplication1.login {
     
     
-    public partial class loginaspx {
+    public partial class WebForm1 {
         
         /// <summary>
-        /// Control f1.
+        /// Control f2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm f1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm f2;
         
         /// <summary>
-        /// Control TextBox1.
+        /// Control tusuario.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox tusuario;
         
         /// <summary>
-        /// Control TextBox2.
+        /// Control tpassantigua.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox tpassantigua;
         
         /// <summary>
-        /// Control b2.
+        /// Control tpass2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b2;
+        protected global::System.Web.UI.WebControls.TextBox tpass2;
+        
+        /// <summary>
+        /// Control tpass3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tpass3;
         
         /// <summary>
         /// Control l1.
@@ -56,5 +65,14 @@ namespace WebApplication1.login {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label l1;
+        
+        /// <summary>
+        /// Control bcomp.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button bcomp;
     }
 }

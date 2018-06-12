@@ -68,18 +68,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\shopping.mdf" />
+    <Content Include="App_Data\shopping_log.ldf">
+      <DependentUpon>shopping.mdf</DependentUpon>
+    </Content>
+    <Content Include="login\completo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
     <Content Include="login\loginaspx.aspx" />
+    <Content Include="login\registrar.aspx" />
+    <Content Include="login\reestablecer.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="login\completo.aspx.cs">
+      <DependentUpon>completo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\completo.aspx.designer.cs">
+      <DependentUpon>completo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login\loginaspx.aspx.cs">
       <DependentUpon>loginaspx.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login\loginaspx.aspx.designer.cs">
       <DependentUpon>loginaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login\registrar.aspx.cs">
+      <DependentUpon>registrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\registrar.aspx.designer.cs">
+      <DependentUpon>registrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login\reestablecer.aspx.cs">
+      <DependentUpon>reestablecer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\reestablecer.aspx.designer.cs">
+      <DependentUpon>reestablecer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
