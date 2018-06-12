@@ -68,26 +68,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ejemplo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
-    <Content Include="login\login.aspx" />
+    <Content Include="login\loginaspx.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejemplo.aspx.cs">
-      <DependentUpon>Ejemplo.aspx</DependentUpon>
+    <Compile Include="login\loginaspx.aspx.cs">
+      <DependentUpon>loginaspx.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ejemplo.aspx.designer.cs">
-      <DependentUpon>Ejemplo.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="login\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="login\loginaspx.aspx.designer.cs">
+      <DependentUpon>loginaspx.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
