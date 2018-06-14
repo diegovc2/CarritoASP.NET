@@ -77,7 +77,6 @@
     <Content Include="home\gulpfile.js" />
     <Content Include="home\img\smash.png" />
     <Content Include="home\index.aspx" />
-    <Content Include="home\index.html" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-grid.css" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-reboot.css" />

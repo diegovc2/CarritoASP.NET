@@ -33,7 +33,7 @@ namespace WebApplication1.login
 
             if (i==1)
             {
-                Response.Redirect("testing.aspx");
+                Response.Redirect("../home/index.aspx");
             }
             else
             {
