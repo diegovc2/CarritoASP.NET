@@ -72,6 +72,26 @@
     <Content Include="App_Data\shopping_log.ldf">
       <DependentUpon>shopping.mdf</DependentUpon>
     </Content>
+    <Content Include="home\.gitignore" />
+    <Content Include="home\css\shop-homepage.css" />
+    <Content Include="home\gulpfile.js" />
+    <Content Include="home\img\smash.png" />
+    <Content Include="home\index.aspx" />
+    <Content Include="home\index.html" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="home\vendor\jquery\jquery.js" />
+    <Content Include="home\vendor\jquery\jquery.min.js" />
+    <Content Include="home\vendor\jquery\jquery.slim.js" />
+    <Content Include="home\vendor\jquery\jquery.slim.min.js" />
     <Content Include="login\completo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
@@ -81,6 +101,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="home\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\index1.html.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\index1.html.designer.cs">
+      <DependentUpon>index1.html.cs</DependentUpon>
+    </Compile>
     <Compile Include="login\completo.aspx.cs">
       <DependentUpon>completo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -112,6 +145,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="home\.travis.yml" />
+    <Content Include="home\LICENSE" />
+    <Content Include="home\package-lock.json" />
+    <Content Include="home\package.json" />
+    <Content Include="home\README.md" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="home\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="home\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="home\vendor\jquery\jquery.min.map" />
+    <Content Include="home\vendor\jquery\jquery.slim.min.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

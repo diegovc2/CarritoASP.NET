@@ -17,7 +17,7 @@
         <label>Usuario</label>
         <asp:TextBox runat="server" ID="tusuario" required="true"/>      
         <label>Password</label>
-        <asp:TextBox  runat="server" ID="tpass"  required="true" />
+        <asp:TextBox  runat="server" ID="tpass"  required="true" TextMode="Password" />
       <label>RUT</label>
         <asp:TextBox  runat="server" ID="trut"  />
        <label>Nombre Completo</label>

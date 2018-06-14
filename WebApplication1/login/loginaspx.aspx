@@ -18,7 +18,7 @@
         <asp:TextBox runat="server" ID="TextBox1" runat="server"/>      
         
         <label>Password</label>
-        <asp:TextBox runat="server" ID="TextBox2" runat="server" />
+        <asp:TextBox TextMode="Password" runat="server" ID="TextBox2" runat="server" />
       <asp:Button ID="b2" Text="Iniciar Sesión" runat="server" OnClick="b2_Click" BackColor="#33CC33" Font-Bold="True" ForeColor="White" />
 
         <br />

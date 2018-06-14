@@ -18,11 +18,11 @@
           <label>Usuario</label>
         <asp:TextBox  runat="server" ID="tusuario"  />
           <label>Contraseña Antigua</label>
-        <asp:TextBox  runat="server" ID="tpassantigua"  />
+        <asp:TextBox  runat="server" ID="tpassantigua" TextMode="Password"  />
           <label>Nueva Contraseña</label>
-        <asp:TextBox  runat="server" ID="tpass2"  />     
+        <asp:TextBox  runat="server" ID="tpass2" TextMode="Password"  />     
           <label>Confirmar  Contraseña</label>
-        <asp:TextBox  runat="server" ID="tpass3"  />
+        <asp:TextBox  runat="server" ID="tpass3" TextMode="Password"  />
         <asp:Label id="l1" Text="" runat="server" />
   
         <asp:Button ID="bcomp" Text="Guardar" runat="server" OnClick="bcomp_click" BackColor="#669900" Font-Bold="True" ForeColor="White" />
