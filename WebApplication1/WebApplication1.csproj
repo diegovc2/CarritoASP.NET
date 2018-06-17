@@ -18,8 +18,8 @@
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
@@ -75,6 +75,9 @@
     <Content Include="home\.gitignore" />
     <Content Include="home\css\shop-homepage.css" />
     <Content Include="home\gulpfile.js" />
+    <Content Include="home\img\lapiz.png" />
+    <Content Include="home\img\Nintendo-DS.png" />
+    <Content Include="home\img\palta-hass.jpg" />
     <Content Include="home\img\smash.png" />
     <Content Include="home\index.aspx" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-grid.css" />
@@ -91,6 +94,7 @@
     <Content Include="home\vendor\jquery\jquery.min.js" />
     <Content Include="home\vendor\jquery\jquery.slim.js" />
     <Content Include="home\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="home\repetidor.aspx" />
     <Content Include="login\completo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
@@ -112,6 +116,20 @@
     </Compile>
     <Compile Include="home\index1.html.designer.cs">
       <DependentUpon>index1.html.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home\index.Master.cs">
+      <DependentUpon>index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\index.Master.designer.cs">
+      <DependentUpon>index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="home\repetidor.aspx.cs">
+      <DependentUpon>repetidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\repetidor.aspx.designer.cs">
+      <DependentUpon>repetidor.aspx</DependentUpon>
     </Compile>
     <Compile Include="login\completo.aspx.cs">
       <DependentUpon>completo.aspx</DependentUpon>
@@ -157,6 +175,7 @@
     <Content Include="home\vendor\bootstrap\js\bootstrap.min.js.map" />
     <Content Include="home\vendor\jquery\jquery.min.map" />
     <Content Include="home\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="home\index.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
