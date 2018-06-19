@@ -10,12 +10,15 @@
         <ItemTemplate>
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="./img/<%#Eval("img") %>" alt=""></a>
+                <a href="prod_desc.aspx?id=<%#Eval("id") %>"><img class="card-img-top" src="./img/<%#Eval("img") %>" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#"><%#Eval("title") %></a>
+                    <a href="prod_desc.aspx?id=<%#Eval("id") %>"><%#Eval("title") %></a>
                   </h4>
-                  <h5><%#Eval("price")%></h5>
+                  <h5>$<%#Eval("price")%></h5>
+                     <a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito
+        </a>
                   <p class="card-text"><%#Eval("desc") %></p>
                 </div>
                 <div class="card-footer">

@@ -95,6 +95,7 @@
     <Content Include="home\vendor\jquery\jquery.slim.js" />
     <Content Include="home\vendor\jquery\jquery.slim.min.js" />
     <Content Include="home\repetidor.aspx" />
+    <Content Include="home\prod_desc.aspx" />
     <Content Include="login\completo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
@@ -130,6 +131,13 @@
     </Compile>
     <Compile Include="home\repetidor.aspx.designer.cs">
       <DependentUpon>repetidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\prod_desc.aspx.cs">
+      <DependentUpon>prod_desc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\prod_desc.aspx.designer.cs">
+      <DependentUpon>prod_desc.aspx</DependentUpon>
     </Compile>
     <Compile Include="login\completo.aspx.cs">
       <DependentUpon>completo.aspx</DependentUpon>
