@@ -33,7 +33,19 @@ namespace WebApplication1.login
 
             if (i==1)
             {
-                Response.Redirect("../home/index.aspx");
+                if(Session["checkoutbutton"] == "yes")
+                {
+                    Session["user"] = TextBox1.Text;
+                    Response.Redirect("../home/update_order_details.aspx");
+
+                }
+                else
+                {
+                    Session["user"] = TextBox1.Text;
+
+                    Response.Redirect("../home/order_details.aspx");
+                }
+
             }
             else
             {

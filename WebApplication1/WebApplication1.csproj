@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\Desktop\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -80,6 +83,8 @@
     <Content Include="home\img\palta-hass.jpg" />
     <Content Include="home\img\smash.png" />
     <Content Include="home\index.aspx" />
+    <Content Include="home\pagocompleto.aspx" />
+    <Content Include="home\payment_gateway.aspx" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-grid.css" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-grid.min.css" />
     <Content Include="home\vendor\bootstrap\css\bootstrap-reboot.css" />
@@ -96,12 +101,18 @@
     <Content Include="home\vendor\jquery\jquery.slim.min.js" />
     <Content Include="home\repetidor.aspx" />
     <Content Include="home\prod_desc.aspx" />
+    <Content Include="home\ver_carrito.aspx" />
+    <Content Include="home\delete_cart.aspx" />
+    <Content Include="home\checkout.aspx" />
+    <Content Include="home\update_order_details.aspx" />
+    <Content Include="home\order_details.aspx" />
     <Content Include="login\completo.aspx" />
     <Content Include="login\css\style.css" />
     <Content Include="login\js\index.js" />
     <Content Include="login\loginaspx.aspx" />
     <Content Include="login\registrar.aspx" />
     <Content Include="login\reestablecer.aspx" />
+    <Content Include="login\logout.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +136,20 @@
     <Compile Include="home\index.Master.designer.cs">
       <DependentUpon>index.Master</DependentUpon>
     </Compile>
+    <Compile Include="home\pagocompleto.aspx.cs">
+      <DependentUpon>pagocompleto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\pagocompleto.aspx.designer.cs">
+      <DependentUpon>pagocompleto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\payment_gateway.aspx.cs">
+      <DependentUpon>payment_gateway.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\payment_gateway.aspx.designer.cs">
+      <DependentUpon>payment_gateway.aspx</DependentUpon>
+    </Compile>
     <Compile Include="home\repetidor.aspx.cs">
       <DependentUpon>repetidor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -138,6 +163,41 @@
     </Compile>
     <Compile Include="home\prod_desc.aspx.designer.cs">
       <DependentUpon>prod_desc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\ver_carrito.aspx.cs">
+      <DependentUpon>ver_carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\ver_carrito.aspx.designer.cs">
+      <DependentUpon>ver_carrito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\delete_cart.aspx.cs">
+      <DependentUpon>delete_cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\delete_cart.aspx.designer.cs">
+      <DependentUpon>delete_cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\update_order_details.aspx.cs">
+      <DependentUpon>update_order_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\update_order_details.aspx.designer.cs">
+      <DependentUpon>update_order_details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home\order_details.aspx.cs">
+      <DependentUpon>order_details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home\order_details.aspx.designer.cs">
+      <DependentUpon>order_details.aspx</DependentUpon>
     </Compile>
     <Compile Include="login\completo.aspx.cs">
       <DependentUpon>completo.aspx</DependentUpon>
@@ -166,6 +226,13 @@
     </Compile>
     <Compile Include="login\reestablecer.aspx.designer.cs">
       <DependentUpon>reestablecer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,34 +10,25 @@
 namespace WebApplication1.home {
     
     
-    public partial class WebForm2 {
+    public partial class pagocompleto {
         
         /// <summary>
-        /// Control d1.
+        /// Control panelPDF.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater d1;
+        protected global::System.Web.UI.WebControls.Panel panelPDF;
         
         /// <summary>
-        /// Control l2.
+        /// Control d2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label l2;
-        
-        /// <summary>
-        /// Control t1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox t1;
+        protected global::System.Web.UI.WebControls.DataList d2;
         
         /// <summary>
         /// Control l1.
@@ -49,12 +40,21 @@ namespace WebApplication1.home {
         protected global::System.Web.UI.WebControls.Label l1;
         
         /// <summary>
-        /// Control b1.
+        /// Control l2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b1;
+        protected global::System.Web.UI.WebControls.Label l2;
+        
+        /// <summary>
+        /// Control btnPrint.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPrint;
     }
 }

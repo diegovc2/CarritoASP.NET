@@ -16,10 +16,10 @@
                     <a href="prod_desc.aspx?id=<%#Eval("id") %>"><%#Eval("title") %></a>
                   </h4>
                   <h5>$<%#Eval("price")%></h5>
-                     <a href="#" class="btn btn-info btn-lg">
-          <span class="glyphicon glyphicon-shopping-cart"></span> Agregar al Carrito
-        </a>
-                  <p class="card-text"><%#Eval("desc") %></p>
+                    <h5>Cantidad: <%#Eval("qty")%></h5>
+                                      <p class="card-text"><%#Eval("desc") %></p>
+
+                    
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>

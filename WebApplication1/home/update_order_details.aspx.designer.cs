@@ -10,25 +10,7 @@
 namespace WebApplication1.home {
     
     
-    public partial class WebForm2 {
-        
-        /// <summary>
-        /// Control d1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater d1;
-        
-        /// <summary>
-        /// Control l2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label l2;
+    public partial class WebForm6 {
         
         /// <summary>
         /// Control t1.
@@ -40,21 +22,48 @@ namespace WebApplication1.home {
         protected global::System.Web.UI.WebControls.TextBox t1;
         
         /// <summary>
-        /// Control l1.
+        /// Control t2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label l1;
+        protected global::System.Web.UI.WebControls.TextBox t2;
         
         /// <summary>
-        /// Control b1.
+        /// Control t3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button b1;
+        protected global::System.Web.UI.WebControls.TextBox t3;
+        
+        /// <summary>
+        /// Control t4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox t4;
+        
+        /// <summary>
+        /// Control t5.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox t5;
+        
+        /// <summary>
+        /// Control t6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox t6;
     }
 }

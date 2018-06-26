@@ -19,6 +19,7 @@
                      <h1><%#Eval("title") %></h1>
                      <p><%#Eval("desc") %></p>
                      <h3>$<%#Eval("price") %></h3>
+                     <h3>Cantidad disponible: <%#Eval("qty") %></h3>
 
                     
                  </div>
@@ -31,6 +32,28 @@
         </FooterTemplate> 
             
        </asp:Repeater>
-                         <asp:Button Text="Agregar al carrito" CssClass="btn btn-info btn-lg" runat="server" OnClick="Unnamed1_Click" />
+            <table>
+                <tr>
+                    <td>
+                        <asp:Label ID="l2" runat="server" Text="Ingresar Cantidad" > </asp:Label></td>
+                    <td>
+                        <asp:TextBox runat="server" ID="t1" />
+
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <asp:Label ID="l1" runat="server" ForeColor="Red" Text=""></asp:Label>
+
+                    </td>
+                </tr>
+                <tr>
+                     <td>
+                       <asp:Button ID="b1" Text="Agregar al carrito" CssClass="btn btn-info btn-lg" runat="server" OnClick="Unnamed1_Click" />
+
+                    </td>
+                </tr>
+            </table>
 
 </asp:Content>

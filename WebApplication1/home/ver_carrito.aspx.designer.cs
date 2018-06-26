@@ -10,34 +10,16 @@
 namespace WebApplication1.home {
     
     
-    public partial class WebForm2 {
+    public partial class WebForm3 {
         
         /// <summary>
-        /// Control d1.
+        /// Control d2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater d1;
-        
-        /// <summary>
-        /// Control l2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label l2;
-        
-        /// <summary>
-        /// Control t1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox t1;
+        protected global::System.Web.UI.WebControls.DataList d2;
         
         /// <summary>
         /// Control l1.
