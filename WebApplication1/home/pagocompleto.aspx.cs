@@ -56,10 +56,8 @@ namespace WebApplication1.home
 
                 l1.Text = "$" + tot.ToString();
                 l2.Text = Request.QueryString["tipo"].ToString();
-                Request.Cookies["carrito"].Value = "";
-                Response.Cookies["carrito"].Expires = DateTime.Now.AddDays(-1);
-
-                Session.Clear();
+              //  Request.Cookies["carrito"].Value = "";
+               // Response.Cookies["carrito"].Expires = DateTime.Now.AddDays(-1);
 
             }
             else Response.Redirect("./prod_desc.aspx");

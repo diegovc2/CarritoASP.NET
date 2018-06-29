@@ -23,7 +23,7 @@ namespace WebApplication1.home
             DataTable dt = new DataTable();
             dt.Columns.AddRange(new DataColumn[7] { new DataColumn("product_name"), new DataColumn("product_desc"), new DataColumn("product_price"), new DataColumn("product_qty"), new DataColumn("product_img"), new DataColumn("id"), new DataColumn("product_id") });
             
-            if (Request.Cookies["carrito"].Value != null)
+            if (Request.Cookies["carrito"] != null)
             {
                 s = Convert.ToString(Request.Cookies["carrito"].Value);
 
@@ -46,8 +46,7 @@ namespace WebApplication1.home
                         tot = tot + (Convert.ToInt32(fila[2].ToString()) * Convert.ToInt32(fila[3].ToString()));
                     }
                 }
-                Response.Write(Request.Cookies["carrito"].Value);
-
+    
                 d2.DataSource = dt;
                 d2.DataBind();
 

@@ -39,9 +39,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="./ver_carrito.aspx">Carrito</a>
             </li>
               <%
@@ -81,12 +78,8 @@
 
           <h1 class="my-4">Tienda en ASP.NET</h1>
            <img src="./img/smash.png" alt="Alternate Text" />
-            <p>Somos una compañía que vende cositas en ASP.NET. Nuestros integrantes son Diego Veloso y José Joaquín Perez</p>
-          <div class="list-group">
-            <a href="#" class="list-group-item">Category 1</a>
-            <a href="#" class="list-group-item">Category 2</a>
-            <a href="#" class="list-group-item">Category 3</a>
-          </div>
+            <p>Somos una compañía que vende cositas en ASP.NET. Nuestros integrantes son Diego Veloso</p>
+       
 
         </div>
         <!-- /.col-lg-3 -->
@@ -141,7 +134,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">DIego Veloso &copy; Tienda ASP 2018</p>
       </div>
       <!-- /.container -->
     </footer>
